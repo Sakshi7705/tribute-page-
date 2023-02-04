@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+
+		/* Styling the body element
+		like body color and margin */
+		
+		body {
+			background-color: #edf2f0;
+			margin: 10%;
+		}
+
+		/* Styling the Title and giving
+		shadow to the title */
+		#title {
+			text-align: left;
+			text-shadow: 5px 5px 10px white;
+			font-size: 7vh;
+		}
+
+		/* Setting font color and font
+		size of the image-caption */
+		#caption {
+			font-size: 17px;
+			font-family: Gill Sans;
+			color: black;
+		}
+
+		/* Styling the content of the page like-
+		padding, font-size, font color etc.*/
+		.tribute-data {
+			background-color: rgba(171, 174, 172, 0.25);
+			box-shadow: 20px 20px 20px #b4b6b4;
+			font-family: Georgia;
+			padding: 25px 25px;
+			margin: 11px;
+			margin-top: 50px;
+            display: inline-block;
+            width:auto;
+            height: 50%;
+		}
+        .tribute-data{
+            display: grid;
+            grid-template-columns: repeat(3, 2fr);
+            grid-gap: 2rem;
+            
+        }
+        .title-tata{
+            border: 2px solid black;
+            background-color: rgb(123, 101, 145);
+            padding: 13px;
+        }
+        .box:first-child{
+           /* grid-column-start: 1;
+            grid-column-end: 3; 
+            grid-row-start: 1;
+            grid-row-end: 2;*/
+            grid-column: 1/span 3;
+        }
+
+		/* Styling the title of the content */
+		h1.title-tata {
+			font-size: 35px;
+			color: rgb(19, 18, 18);
+			text-align: center;
+			text-shadow: 5px 5px 10px rgb(125, 121, 121);
+            font-family: 'Times New Roman', Times, serif;
+        
+		}
+
+		/* Styling the link provided at the end */
+		#tribute-link {
+			text-decoration: none;
+			color: black;
+		}
+
+	</style>
+</head>
+
+<body>
+	<main id="main">
+
+		<!-- Title of the page -->
+		<h1 id="title">
+			Ratan Naval Tata
+		</h1>
+
+		<div>
+            <h2> Born 28 December 1937</h2>
+			<small id="caption">
+				 He is an Indian businessman and former chairman of Tata Sons.
+			</small>
+		</div>
+      <div class="demo">
+        <div class="tribute-data">
+			<!--Achievements and other
+				details of the person-->
+			<h1 class="title-tata">
+				About the Legend
+			</h1>
+              <p>
+                 <b><i>R</i></b>atan Tata was born in Bombay, now Mumbai, during the British Raj, on 28 December 1937.[6] He is the son of Naval Tata, who was born in Surat and later adopted into the Tata family, and Sooni Tata, the niece of Tata group founder Jamsetji Tata. Tata's biological grandfather, Hormusji Tata, was a member of the Tata family by blood. In 1948, when Tata was 10, his parents separated, and he was subsequently raised and adopted by Navajbai Tata, his grandmother and widow of Ratanji Tata.[7] He has a younger brother Jimmy Tata[8] and a half-brother, Noel Tata, from Naval Tata's second marriage with Simone Tata, with whom he was raised. His first language is Gujarati.<br><br>
+                 He studied at the Campion School, Mumbai till the 8th class. After which, he studied at the Cathedral and John Connon School in Mumbai, the Bishop Cotton School in Shimla, and the Riverdale Country School in New York City, which he graduated from in 1955.[10][11][12] After graduating from high school, Tata enrolled in Cornell University, from which he graduated with a bachelor's degree in architecture in 1959. In 2008, Tata gifted Cornell $50 Million, becoming the largest international donor in the university’s history.
+			</p>
+
+            <img src= "Pic 17.jpg" id="image"
+            alt="Error Loading Image">
+
+		</div>
+          
+            <div class="tribute-data">
+                <h1 class="title-tata">
+                    Honours and awards
+                </h1>
+              <p>
+                Ratan Tata received the Padma Bhushan in 2000 and Padma Vibhushan in 2008, the third and second highest civilian honours awarded by the Government of India.[62] Along with national civilian honours, Tata has also received various state civilian honours like 'Maharashtra Bhushan' in 2006 for his huge work in the public administration in Maharashtra and 'Assam Baibhav' in 2021 for his exceptional contribution towards furthering cancer care in Assam.
+               </p>
+            </div>
+      </div>
+		
+		     <br>
+		       For more information,
+		       check out
+		       <a id="tribute-link" href="#">
+			     <b>Ratan Naval Tata</b> on Wikipedia. [
+			       <small>Developed by @<a href="#">
+					  Sushant.</a></a>
+		           </small>]
+	</main>
+</body>
+
+</html>
